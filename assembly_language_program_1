@@ -1,3 +1,4 @@
+;it dont kill the opponent
 org 100h
 jmp start
 empty db 0ah,0ah,0ah,24h
