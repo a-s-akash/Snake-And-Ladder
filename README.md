@@ -1,7 +1,5 @@
 # Snake-And-Ladder
 
-Your assembly language program is a simple Snake and Ladder game. Here's an overview of the key components and functionality in your code:
-
 1. **Board Layout:**
    - The game board is displayed using ASCII characters, with the Snake and Ladder positions marked.
    - The layout is shown using a combination of characters and strings stored in the data segment.
