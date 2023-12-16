@@ -47,7 +47,7 @@
 Please note that the code is written in x86 Assembly Language and may be executed in a DOS environment. Understanding assembly language requires familiarity with x86 architecture and instruction set.
 
 
-#Python
+# Python
 
 1. **Server Code (server.py):**
    - The server creates two sockets (`server_socket1` and `server_socket2`) to listen for connections on different ports (12345 and 12346).
