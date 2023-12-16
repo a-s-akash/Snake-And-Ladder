@@ -45,3 +45,36 @@
     - Int 21h is used for reading characters from the keyboard.
 
 Please note that the code is written in x86 Assembly Language and may be executed in a DOS environment. Understanding assembly language requires familiarity with x86 architecture and instruction set.
+
+
+#Python
+
+1. **Server Code (server.py):**
+   - The server creates two sockets (`server_socket1` and `server_socket2`) to listen for connections on different ports (12345 and 12346).
+   - It accepts connections from two clients (`connection1` and `connection2`).
+   - There are two players (`player1_loc` and `player2_loc`) who move on a Snake and Ladder board. The game continues until one of the players reaches position 30.
+   - The `checksnakeandladder` function checks if a player has landed on a snake or ladder and adjusts their position accordingly.
+   - The game logic is implemented using a loop where players take turns rolling a die (`run`) and moving on the board.
+
+2. **Client 1 Code (client1.py):**
+   - This client connects to the server using a socket on port 12345.
+   - It uses Tkinter for the graphical user interface (GUI) to display the Snake and Ladder board.
+   - When the player clicks the "Roll Dice" button, a random number is generated, and the client sends this value to the server.
+   - The client receives the updated position from the server and moves the player on the board accordingly.
+   - If a player reaches position 30, a window appears asking for the player's name and email. The server sends a certificate and email to the player.
+
+3. **Client 2 Code (client2.py):**
+   - Similar to Client 1 but connects to the server on port 12346.
+   - It also has a GUI for the Snake and Ladder board and handles the game logic.
+
+4. **Certificate Generation Code (certificate.py):**
+   - Generates a certificate image using the Pillow library.
+   - Takes a template image (`certi.png`) and adds the player's name to it.
+   - Saves the modified image as `output.png`.
+
+5. **Email Sending Code (emaill.py):**
+   - Sends an email to the player using the smtplib library.
+   - Attaches the certificate image to the email.
+   - The email contains a congratulatory message.
+
+In summary, this code implements a basic Snake and Ladder game with a server-client architecture. Players interact with the game through a graphical user interface, and the server manages the game state, communication, and certificate/email sending when a player wins.
