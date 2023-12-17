@@ -78,3 +78,51 @@ Please note that the code is written in x86 Assembly Language and may be execute
    - The email contains a congratulatory message.
 
 In summary, this code implements a basic Snake and Ladder game with a server-client architecture. Players interact with the game through a graphical user interface, and the server manages the game state, communication, and certificate/email sending when a player wins.
+
+
+# Output details
+
+**For Assembly Code**
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/3292a9fb-c8d4-44f6-934f-d95120b2f427)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/24573e64-8743-4923-b1bf-b7aab6db7c02)
+
+**For Python Code**
+
+**Server.py**
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/1f41e864-7484-4bcb-9567-e4a8d020cee7)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/a20f94c2-47f3-4e6a-9272-3cbdb432f1fa)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/f72171cb-42e7-4890-a8dc-8cd294498bde)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/44dde36d-2024-486d-aaa7-f95c7b579abb)
+
+**client1.py**
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/b71b4636-da7f-4836-8f5e-24327ee05fc0)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/818cf50d-fa22-40f7-98f9-f18b6bf169e5)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/2d359262-d668-4bc9-9dfc-1ec27f5fb695)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/0851614a-431d-4b95-8699-6e05a2c4daa5)
+
+**client2.py**
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/acd3da65-75dc-455f-b32c-6af79ff7e134)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/c3dab938-cd4d-4d22-b95d-07b4ef291799)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/bf556c3b-5257-4de9-96fe-e8cd049056c8)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/d3336f59-eb09-444f-8ec6-cab22af8a265)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/3d74c2f4-48f1-4fee-b36b-3516e97ce9d2)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/5b355e2c-798e-447a-98f3-f562f7487fe9)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/eed1e590-eec9-4f7e-9054-948ad017344c)
+![image](https://github.com/a-s-akash/Snake-And-Ladder/assets/149227673/b3f018da-295f-475c-bee0-1a38d61c10a1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
